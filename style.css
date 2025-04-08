@@ -1,0 +1,71 @@
+header {
+    background: rgba(49, 174, 215, 0.7);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin-bottom: 20px; /* Espacio entre header y body */
+    padding: 15px 0; /* Espacio interno en el header */
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background: #eca023;
+}
+
+/* Espacio para el header fijo */
+body {
+    padding-top: 70px;
+}
+
+/* Estilos para tablas */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    color : #000000;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#img-1{
+    width: 10%;
+
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+#img-1 {
+    max-width: 100px; /* Tamaño ajustable según necesites */
+    height: auto;
+    margin-right: 20px; /* Espacio entre imagen y texto */
+}
