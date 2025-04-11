@@ -21,7 +21,7 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container" >
             <div class="header-content">
                 <!-- Ajusta la ruta de la imagen según tu estructura de carpetas -->
                 <img id="img-1" class="img-fluid" src="./img/logo.jpg" alt="Logo TV Series">
@@ -31,6 +31,8 @@
     </header>
 
     <main class="container">
+        <div class = "row">
+        <div class="col">    
         <table class="table table-striped">
             <thead class="table-dark">
                 <tr>
@@ -44,7 +46,30 @@
                 <!-- Filas generadas dinámicamente -->
             </tbody>
         </table>
-        
+    </div>
+        <div class="col">
+
+            <table  id= "Tablita">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Descripción</th>
+                        
+                    </tr> 
+                </thead>   
+                <tbody id = "Info">
+                    
+
+
+
+
+
+                </tbody>
+            </table>
+        </div>   
+
+
+    </div>
+
         <div class="mt-4">
             <h5>Total seasons: <span id="total-credits" class="badge bg-secondary">0</span></h5>
         </div>
